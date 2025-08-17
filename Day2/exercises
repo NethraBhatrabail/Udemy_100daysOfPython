@@ -1,0 +1,39 @@
+#primitive data types in Python:Strings,Integers,Floats,Booleans
+print(len("Hello"))
+print("hello"[0])
+print("123"+"456")
+print(12345)
+print(3.14)
+print(True)
+
+print(len("123")) #to know length of strig
+#to know type of data type
+print(type(123))  
+print(type(3.1))
+print(type(True))
+print(type("hello"))
+
+print(int("123")+int("456")) #type conversion
+#example
+name=(input("Enter ur name"))
+length=len(name)
+print(type("number of letters in ur name:"))
+print(type(length))
+print("number of letters in ur name: "+str(length))
+
+#Math operations
+print("My age: " + str(12))
+print(123+456)  #579
+print(7-3)   #4
+print(2*3)  #6
+print(7/3) #2.333...
+print(7//3)  #2
+print(2**3) #2^3=8
+print(3 * (3 + 3) / 3 - 3)  #output is 3 according to PEMDAS- parenthesis, exponent, multiplication, division,addision, subtraction
+
+
+# print(f"") aviods using type conversion multiple times
+score=0
+height=5.1
+winning=True
+print(f"Your score is = {score},your height is {height} and you are winning is {winning}")   
