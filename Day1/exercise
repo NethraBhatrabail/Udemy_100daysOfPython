@@ -1,1 +1,20 @@
+print("Hello world!")
+print("Hello world!\nHello world!") #to got to new line
+print("Nethra"+" "+"K")  #string concatenation
+print("hello"+"world")
 
+# input() function
+input("What is ur name?")
+print("hello" + input("what is ur name") +"!")
+
+#len() function
+name="Jack"
+print(name)
+l=len(name)
+print(l)
+
+print(len(input("what is ur name")))
+#or
+username=input("enter ur name")
+length=len(username)
+print(length)
