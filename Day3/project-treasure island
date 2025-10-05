@@ -1,0 +1,27 @@
+print("Welcome to Treasure Island.")
+print("Your mission is to find the treasure.")
+choice1=input('You\'re at cross road, where do you want to go?'
+              'Type "left" or "right".\n').lower()
+              # \' will simply print '  and .lower() will convert evry letter to lowercase
+
+if choice1=="left":  # if we dont use .lower() the  if choice1=="left" or choice1=="Left"
+    choice2=input('You\'ve come to a lake, '
+                  'there is an island in the middle of the lake.'
+                  'Type "wait" to wait for boat. '
+                  'Type "swim" to swim across.\n').lower()
+    if choice2=="wait":
+       choice3=input('You have arrived to island unharmed.'
+             'There is house with 3 doors.'
+             'One "red", one "yellow", one "blue".\n').lower()
+       if choice3=="red":
+           print("It's a room of fire. Game over")
+       elif choice3=="yellow":
+           print("You've found the tressure. You've won")
+       elif choice3=="blue":
+           print("You have entered a room of evils. Game over")
+       else:
+           print("You have chosen a door which doesn't exists.Game over.")
+    else:
+        print("You have attacked by crocodile.Game over")
+else:
+    print("You fell into hole. Game over")
